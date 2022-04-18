@@ -12,9 +12,11 @@ var die_S;
 var coin_S;
 var bricks;
 class main extends Phaser.Scene {
+
     constructor() {
       super("Main");
     }
+    
     create() {
 
         this.add.image(400, 300, 'sky').setScrollFactor(0);
